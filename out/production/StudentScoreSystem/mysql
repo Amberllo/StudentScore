@@ -1,0 +1,35 @@
+#创建数据库
+create database db_student_score_system;
+
+#进入数据库
+use db_student_score_system;
+
+
+#用户表
+CREATE TABLE tb_user(
+   username varchar(20) NOT NULL primary key,
+   password varchar(32) NOT NULL,
+   popedom int NOT NULL DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+insert into tb_user(username, password, popedom) values ('admin2017','516536',1);
+
+#学生信息表
+CREATE TABLE tb_info(
+   sid varchar(20) NOT NULL primary key,
+   name varchar(50) NOT NULL,
+   sex  varchar(20) NOT NULL,
+   dept varchar(50) NOT NULL,
+   major varchar(50) NOT NULL,
+   clazz varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
+#成绩表
+CREATE TABLE tb_score(
+   sid varchar(20) NOT NULL,
+   course varchar(50) NOT NULL,
+   score  varchar(20) NOT NULL,
+   time varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

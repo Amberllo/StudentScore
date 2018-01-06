@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/MyJTable.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/bean/InfoBean.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/db/PopedomDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/ui/AddInfoWindow.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/ui/AddScoreWindow.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/ui/LoginWindow.java" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>
